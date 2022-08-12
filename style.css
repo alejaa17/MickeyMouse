@@ -1,0 +1,203 @@
+.cabeza{
+    width: 430px;
+    height: 430px;
+    background: black;
+    border-radius: 50%;
+    margin: 250px auto;
+    position: relative;
+
+}
+
+/* -----Orejas----- */
+
+
+.orejas{
+    width: 700px;
+    position: absolute;
+    top: -140px;
+    left: -133px;
+}
+.oreja{
+    width: 250px;
+    height: 270px;
+    background: black;
+    border-radius: 50%;
+    display:inline-block;
+}
+#oreja-1{
+    transform: rotateZ(30deg);
+}
+#oreja-2{
+    float: right;
+    transform: rotateZ(-30deg);
+}
+
+
+/* -----Ojos-----*/
+
+
+.ojos{
+    width: 320px;
+    position: absolute;
+    left: 62px;
+    top: 19px;
+}
+.ojo{
+    width: 170px;
+    height: 250px;
+    background: white;
+    border-radius: 50%;
+    display:inline-block;
+    position: relative;
+    z-index: 1;
+    top: 10px;
+}
+#ojo-1{
+    transform: rotateZ(14deg);
+}
+#ojo-2{
+    margin-left: -33px;
+    transform: rotateZ(-14deg);
+}
+.pupila{
+    width: 45px;
+    height: 135px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    bottom: 40px;
+}
+#pupila-1{
+    right: 25px;
+    transform: rotateZ(-14deg);
+}
+#pupila-2{
+    left: 25px;
+    transform:rotateZ(14deg);
+}
+
+
+/* ----- Nariz ----- */
+
+
+.nariz{
+    width: 160px;
+    height: 90px;
+    background: white;
+    position: absolute;
+    top: 199px;
+    border-radius: 50%;
+    left: calc(50% - 75px);
+    z-index: 3;
+    border-top: 8px solid black;
+}
+.nariz::after{
+    content: '';
+    width: 105px;
+    height: 60px;
+    background: black;
+    border-radius: 50%;
+    display: block;
+    margin: 7px auto;
+}
+
+
+/* -----Boca----- */
+
+
+.boca{
+    width: 460px;
+    position: absolute;
+    bottom: 0px;
+}
+.mouth{
+    width: 120px;
+    height: 190px;
+    background: black;
+    position: absolute;
+    top: -190px;
+    border-radius: 50%;
+    left: calc(50% - 70px);
+    z-index: 1;
+}
+.lengua{
+    width: 60px;
+    height: 30px;
+    border-radius: 50%;
+    top: 140px;
+    position: absolute;
+    background: red;
+    border-top: 5px solid black;
+}
+#lengua-1{
+    left: 35%;
+    transform: rotateZ(-40deg);
+}
+#lengua-2{
+    right: 35%;
+    transform:rotateZ(40deg)
+}
+.labio-superior{
+    width: 300px;
+    height: 110px;
+    background: white;
+    position: absolute;
+    top: -207px;
+    border-radius: 50%;
+    left: 15%;
+    z-index: 2;
+    border-bottom: 8px solid black;
+}
+.labio-inferior{
+    width: 160px;
+    height: 190px;
+    background: white;
+    position: absolute;
+    top: -170px;
+    border-radius: 50%;
+    left: calc(50% - 90px);
+    border-bottom: 10px solid black;
+}
+
+
+/* ----- Mejillas ----- */
+
+
+.mejilla{
+    width: 260px;
+    height:125px;
+    background: white;
+    border-radius: 50%;
+    display: inline-block;
+    border: 10px solid black;
+    position: absolute;
+    top: -173px;
+}
+#mejilla-1{
+    transform: rotateZ(37deg);
+    left: -23px;
+}
+#mejilla-2{
+    transform: rotateZ(-37deg);
+    right: 0px;
+}
+.pomulo{
+    width: 40px;
+    height:25px;
+    background: transparent;
+    border-radius: 50%;
+    border-top: 5px solid black;
+    position: absolute;
+    top: 55px;
+}
+#pomulo-1{
+    transform: rotateZ(-20deg);
+    left: -13px;
+}
+#pomulo-2{
+    transform: rotateZ(20deg);
+    right: -13px;
+}
+
+
+
