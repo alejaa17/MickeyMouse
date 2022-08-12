@@ -65,17 +65,29 @@ body{
     width: 45px;
     height: 135px;
     border-radius: 50%;
-    background: black;
+    background: white;
     position: absolute;
+    border: 3px solid black;
     bottom: 40px;
+}
+.pupila::after{
+    content: "";
+    background: black;
+    display: block;
+    position: absolute;
+    top: 45px;
+    left: 20%;
+    border-radius: 50%;
+    width: 25px;
+    height: 67px;
 }
 #pupila-1{
     right: 25px;
-    transform: rotateZ(-14deg);
+    transform: rotateZ(-20deg);
 }
 #pupila-2{
     left: 25px;
-    transform:rotateZ(14deg);
+    transform:rotateZ(20deg);
 }
 
 
@@ -93,7 +105,7 @@ body{
     z-index: 3;
     border-top: 8px solid black;
 }
-.nariz::after{
+.nariz::before{
     content: '';
     width: 105px;
     height: 60px;
@@ -101,6 +113,15 @@ body{
     border-radius: 50%;
     display: block;
     margin: 7px auto;
+}
+.nariz::after{
+    content: '';
+    width: 55px;
+    height: 15px;
+    background: white;
+    border-radius: 50%;
+    display: block;
+    margin: -60px 55px;
 }
 
 
